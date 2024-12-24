@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <title>Game Over</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/index.css">
+</head>
+
+<body>
+    <header>
+        <img src="Images/wraper.png" class="w-100" alt="Games Banner">
+    </header>
+    <nav class="navbar navbar-expand-lg position-sticky z-3">
+        <div class="container maincl p-4 rounded-pill">
+            <img src="Images/logo-sm.png" alt="">
+            <a class="navbar-brand Logo text-white fs-2 ms-2" href="#">Game Reviews</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-4 Logo" aria-current="page" href="#" id="mmorpg">mmorpg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-4 Logo " aria-current="page" href="#" id="shooter">shooter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-4 Logo " aria-current="page" href="#" id="sailing">sailing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-4 Logo " aria-current="page" href="#"
+                            id="permadeath">permadeath</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-4 Logo " aria-current="page" href="#"
+                            id="superhero">superhero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-4 Logo " aria-current="page" href="#" id="pixel">pixel</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="Gamescards">
+        <div class="container">
+          <!-- Game cards will go here -->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 p-5" id="RowData"></div>
+      
+          <!-- Game details in a swiper-like modal -->
+          <div id="gameDetailModal" class="gameDetailModal d-none">
+            <div class="modal-content">
+              <!-- Close button -->
+              <button id="closeGameDetail" class="close-btn">&times;</button>
+              <div id="gamedetail"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js" type="module"></script>
+</body>
+
+</html>
